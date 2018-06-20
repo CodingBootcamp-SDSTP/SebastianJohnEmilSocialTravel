@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<web-app>
+	<display-name>Servlet Sample</display-name>
+	<description>Sample App</description>
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddPromo</servlet-name>
+		<servlet-class>AddPromoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddPromo</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+</web-app>
